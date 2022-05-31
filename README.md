@@ -349,5 +349,5 @@ function makeNickname(name: string, num: number | string): NicknameMaker | strin
 }
 
 const getNickName = makeNickname("Mjo", 303).init();
-console.log(getNickName()); // result: Mjo303
+console.log(getNickName()); //result: Mjo303
 ```
